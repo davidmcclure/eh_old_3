@@ -19,11 +19,15 @@ describe 'Index' do
     end
 
     it 'should show a login link' do
-      last_response.should have_selector('a', :href => '/login')
+      last_response.should have_selector('a',
+        :href => '/login'
+      )
     end
 
     it 'should show a register link' do
-      last_response.should have_selector('a', :href => '/register')
+      last_response.should have_selector('a',
+        :href => '/register'
+      )
     end
 
   end
