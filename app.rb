@@ -1,0 +1,8 @@
+require 'sinatra'
+
+class ExquisiteHaiku < Sinatra::Application
+  enable :sessions
+end
+
+require_relative 'models/init'
+require_relative 'routes/init'
