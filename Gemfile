@@ -8,3 +8,8 @@ source :rubyforge
 gem 'sinatra'
 gem 'ohm'
 gem 'sass'
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test'
+end

@@ -1,3 +1,5 @@
+# Model definition for users.
+#
 # @package    exquisitehaiku
 # @author     David McClure
 # @license    Apache 2.0

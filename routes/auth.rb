@@ -1,3 +1,5 @@
+# Routes for authentication.
+#
 # @package    exquisitehaiku
 # @author     David McClure
 # @license    Apache 2.0

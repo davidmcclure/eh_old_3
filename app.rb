@@ -1,3 +1,5 @@
+# Application file. Include models and routes.
+#
 # @package    exquisitehaiku
 # @author     David McClure
 # @license    Apache 2.0

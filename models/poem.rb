@@ -1,3 +1,5 @@
+# Model definition for poems.
+#
 # @package    exquisitehaiku
 # @author     David McClure
 # @license    Apache 2.0
