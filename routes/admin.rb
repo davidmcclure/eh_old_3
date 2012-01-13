@@ -1,7 +1,11 @@
+# @package    exquisitehaiku
+# @author     David McClure
+# @license    Apache 2.0
+
 class ExquisiteHaiku < Sinatra::Application
 
-  get '/admin/:user/haiku' do
-    "#{params[:user]}/haiku"
+  get '/admin/:user/poems' do
+    "#{params[:user]}/poems"
   end
 
   get '/admin/:user/add' do

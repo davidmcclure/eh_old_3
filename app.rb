@@ -1,3 +1,7 @@
+# @package    exquisitehaiku
+# @author     David McClure
+# @license    Apache 2.0
+
 require 'sinatra'
 
 class ExquisiteHaiku < Sinatra::Application
