@@ -5,7 +5,8 @@
 class ExquisiteHaiku < Sinatra::Application
 
   get '/' do
-    '/'
+    @title = "exquisitehaiku"
+    erb :index
   end
 
 end
