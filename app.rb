@@ -7,7 +7,7 @@
 require 'sinatra'
 
 class ExquisiteHaiku < Sinatra::Application
-  enable :sessions
+  use Rack::Session::Cookie
 end
 
 require_relative 'models/init'

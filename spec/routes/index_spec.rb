@@ -10,14 +10,21 @@ describe 'Index' do
 
   describe 'GET on /' do
 
-    it 'should get the index page' do
+    before(:each) do
       get '/'
+    end
+
+    it 'should get the index page' do
       last_response.should be_ok
     end
 
-    it 'should show a login link'
+    it 'should show a login link' do
+      last_response.should have_selector('a', :href => '/login')
+    end
 
-    it 'should show a register link'
+    it 'should show a register link' do
+      last_response.should have_selector('a', :href => '/register')
+    end
 
   end
 

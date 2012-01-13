@@ -7,11 +7,13 @@
 class ExquisiteHaiku < Sinatra::Application
 
   get '/register' do
-    '/register'
+    @title = "Register"
+    erb :'auth/register', :layout => :'_layouts/index'
   end
 
   get '/login' do
-    '/login'
+    @title = "Login"
+    erb :'auth/login', :layout => :'_layouts/index'
   end
 
   get '/logout' do

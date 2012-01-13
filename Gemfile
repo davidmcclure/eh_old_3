@@ -12,4 +12,5 @@ gem 'sass'
 group :test do
   gem 'rspec'
   gem 'rack-test'
+  gem 'webrat'
 end
