@@ -2,13 +2,15 @@
 <html>
 <head>
   <title><%= @title %></title>
+  <!-- ** dev style ** -->
+  <%= erb :'_layouts/__dev' %>
 </head>
 <body>
-  <div class="content index">
-    <div class="logo">
-      <a href="<%= url('/') %>">exquisitehaiku</a>
-    </div>
+
+  <div class="container index">
+    <h1><a href="/">exquisitehaiku</a></h1>
     <%= yield %>
   </div>
+
 </body>
 </html>
